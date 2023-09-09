@@ -1,4 +1,4 @@
-// Program that ask for the number to the user
+// Program that ask for the number to the user.
 function isEven() {
     let number = prompt("Enter a number:");
     number = parseInt(number);
@@ -13,7 +13,9 @@ function isEven() {
 
 console.log(isEven());
 
-// program that asks the user for two numbers. If the first number is greater than the second number, print "The first number is greater than the second number." Otherwise, print "The second number is greater than the first number.
+
+
+// Program that ask user two number.
 function compareNumbers() {
     let firstNumber = prompt("Enter the first number:");
     let secondNumber = prompt("Enter the second number:");
@@ -30,6 +32,9 @@ function compareNumbers() {
 
 console.log(compareNumbers());
 
+
+
+// Programe that ask number to user and print the number is greater or less than 10.
 function isLessThanTen() {
     let number = prompt("Enter a number:");
     number = parseInt(number);
@@ -45,16 +50,22 @@ function isLessThanTen() {
 console.log(isLessThanTen());
 
 
+
+// Program that prints the number from 1 to 10.
 for (let i = 1; i <= 10; i++) {
     console.log(i);
 }
 
 
+
+// Program that prints the even number from 1 to 10.
 for (let i = 2; i <= 10; i += 2) {
     console.log(i);
 }
 
 
+
+// Program that prints the odd numbers from 1 to 10.
 for (let i = 1; i <= 10; i++) {
     if (i % 2 !== 0) {
         console.log(i);
